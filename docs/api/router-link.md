@@ -21,7 +21,7 @@ import EncapsulationPill from '@components/page/api/EncapsulationPill';
 The router link component is used for navigating to a specified link. Similar to the browser's anchor tag, it can accept a href for the location, and a direction for the transition animation.
 
 :::note
- Note: this component should only be used with vanilla and Stencil JavaScript projects. For Angular projects, use an `<a>` and `routerLink` with the Angular router.
+Note: this component should only be used with vanilla, and Stencil JavaScript projects. For Angular based projects, use an `<a>` and `routerLink` with the Angular router. For Angular standalone components, see the routing section of the [Build Options](../angular/build-options#usage-with-standalone-based-applications) documentation.
 :::
 
 See the [Router](./router) documentation for more information.
